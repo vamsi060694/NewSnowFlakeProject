@@ -8,3 +8,13 @@
 4-parsing of vendor file names,based on latest file-later
 
 
+#packages to install
+pandas
+os
+#pip install -r https://raw.githubusercontent.com/snowflakedb/snowflake-connector-python/v2.6.2/tested_requirements/requirements_36.reqs
+#pip3 install sqlalchemy
+#pip install Flask-SQLAlchemy
+#pip install --upgrade snowflake-sqlalchemy
+#pip install azure-storage-file-datalake --pre
+#pip install azure-storage-file-datalake
+
