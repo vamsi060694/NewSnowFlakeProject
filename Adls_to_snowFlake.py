@@ -1,6 +1,7 @@
-from utils import downloading_loading, cs, init_logger
+from utils import downloading_loading, cs
 from utils import look_up_table
 from utils import look_up_tabl_1
+from utils import init_logger
 import sys
 
 logger = init_logger()
@@ -13,6 +14,7 @@ if len(sys.argv) < 2:
         downloading_loading(df)
     except Exception as e:
         logger.error(e)
+
 else:
     try:
         for i in range(1, len(sys.argv)):
@@ -22,4 +24,5 @@ else:
             downloading_loading(df)
     except Exception as e:
         logger.error(e)
+
 cs.close()

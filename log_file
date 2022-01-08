@@ -1,29 +1,29 @@
-2022-01-06 23:47:25,093 : DEBUG : container_name:vendor1,file_name:vendor1_data.csv
-2022-01-06 23:47:25,950 : DEBUG : vendor1_data.csv downloaded from Gen2Lake
-2022-01-06 23:47:29,145 : DEBUG : vendor1_data.csv status True
-2022-01-06 23:47:29,145 : INFO : All rows loaded into SnowFlake
-2022-01-06 23:47:29,147 : DEBUG : container_name:vendor2,file_name:vendor2_data.csv
-2022-01-06 23:47:30,012 : DEBUG : vendor2_data.csv downloaded from Gen2Lake
-2022-01-06 23:47:32,278 : DEBUG : vendor2_data.csv status True
-2022-01-06 23:47:32,278 : INFO : All rows loaded into SnowFlake
-2022-01-06 23:47:32,279 : DEBUG : container_name:vendor3,file_name:vendor3_data.csv
-2022-01-06 23:47:33,133 : DEBUG : vendor3_data.csv downloaded from Gen2Lake
-2022-01-06 23:47:35,237 : DEBUG : vendor3_data.csv status True
-2022-01-06 23:47:35,238 : INFO : All rows loaded into SnowFlake
-2022-01-06 23:48:35,577 : ERROR : 001003 (42000): SQL compilation error:
-syntax error line 1 at position 9 unexpected 'rom'.
-2022-01-06 23:48:35,577 : ERROR : 'NoneType' object has no attribute 'reset_index'
-2022-01-06 23:49:25,302 : ERROR : 'NoneType' object has no attribute 'replace'
-2022-01-06 23:49:25,303 : ERROR : [Errno 2] No such file or directory: 'C:\\Users\\Ant PC\\PycharmProjects\\NewSnowFlakeProject1\\vendor1_data.csv'
-2022-01-06 23:50:18,151 : DEBUG : container_name:vendor1,file_name:vendor1_data.csv
-2022-01-06 23:50:19,134 : DEBUG : vendor1_data.csv downloaded from Gen2Lake
-2022-01-06 23:50:22,691 : DEBUG : vendor1_data.csv status True
-2022-01-06 23:50:22,691 : INFO : All rows loaded into SnowFlake
-2022-01-06 23:50:22,693 : DEBUG : container_name:vendor2,file_name:vendor2_data.csv
-2022-01-06 23:50:23,553 : DEBUG : vendor2_data.csv downloaded from Gen2Lake
-2022-01-06 23:50:25,615 : DEBUG : vendor2_data.csv status True
-2022-01-06 23:50:25,615 : INFO : All rows loaded into SnowFlake
-2022-01-06 23:50:25,617 : DEBUG : container_name:vendor3,file_name:vendor3_data.csv
-2022-01-06 23:50:26,495 : DEBUG : vendor3_data.csv downloaded from Gen2Lake
-2022-01-06 23:50:28,914 : DEBUG : vendor3_data.csv status True
-2022-01-06 23:50:28,914 : INFO : All rows loaded into SnowFlake
+2022-01-08 15:01:23,843 : INFO : Initiating snowFlake Connection
+2022-01-08 15:01:25,435 : INFO : Connection successful
+2022-01-08 15:01:25,754 : INFO : container_name:vendor1,file_name:vendor1_data.csv
+2022-01-08 15:01:26,812 : INFO : vendor1_data.csv downloaded from Gen2Lake
+2022-01-08 15:01:30,355 : INFO : vendor1_data.csv loaded into snowFlake 
+2022-01-08 15:01:30,356 : INFO : vendor1_data.csv:All rows loaded into SnowFlake
+2022-01-08 15:01:30,357 : INFO : vendor1_data.csv:Removed from Local
+2022-01-08 15:01:30,646 : INFO : container_name:vendor3,file_name:vendor3_data.csv
+2022-01-08 15:01:31,530 : INFO : vendor3_data.csv downloaded from Gen2Lake
+2022-01-08 15:01:33,720 : INFO : vendor3_data.csv loaded into snowFlake 
+2022-01-08 15:01:33,720 : INFO : vendor3_data.csv:All rows loaded into SnowFlake
+2022-01-08 15:01:33,721 : INFO : vendor3_data.csv:Removed from Local
+2022-01-09 01:41:15,961 : INFO : Initiating snowFlake Connection
+2022-01-09 01:41:17,753 : INFO : Connection successful
+2022-01-09 01:41:18,722 : INFO : container_name:vendor1,file_name:vendor1_data.csv
+2022-01-09 01:41:19,754 : INFO : vendor1_data.csv downloaded from Gen2Lake
+2022-01-09 01:41:23,817 : INFO : vendor1_data.csv loaded into snowFlake 
+2022-01-09 01:41:23,817 : INFO : vendor1_data.csv:All rows loaded into SnowFlake
+2022-01-09 01:41:23,818 : INFO : vendor1_data.csv:Removed from Local
+2022-01-09 01:41:23,819 : INFO : container_name:vendor2,file_name:vendor2_data.csv
+2022-01-09 01:41:24,702 : INFO : vendor2_data.csv downloaded from Gen2Lake
+2022-01-09 01:41:26,990 : INFO : vendor2_data.csv loaded into snowFlake 
+2022-01-09 01:41:26,991 : INFO : vendor2_data.csv:All rows loaded into SnowFlake
+2022-01-09 01:41:26,991 : INFO : vendor2_data.csv:Removed from Local
+2022-01-09 01:41:26,992 : INFO : container_name:vendor3,file_name:vendor3_data.csv
+2022-01-09 01:41:27,870 : INFO : vendor3_data.csv downloaded from Gen2Lake
+2022-01-09 01:41:30,063 : INFO : vendor3_data.csv loaded into snowFlake 
+2022-01-09 01:41:30,064 : INFO : vendor3_data.csv:All rows loaded into SnowFlake
+2022-01-09 01:41:30,064 : INFO : vendor3_data.csv:Removed from Local
